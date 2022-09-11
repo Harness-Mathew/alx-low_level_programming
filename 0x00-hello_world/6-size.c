@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description:
+ * Description: Types and sizes
  * Return: 0
  **/
 int main(void)
