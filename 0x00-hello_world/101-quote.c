@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * description: stderr print
+ * description: print string
  * return: 1
  **/
 int main(void)
