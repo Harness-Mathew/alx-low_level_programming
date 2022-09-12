@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * description: print string
- * return: 1
+ * Return: 1
  **/
 int main(void)
 {
