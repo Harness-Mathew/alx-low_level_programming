@@ -4,7 +4,6 @@
  * Description: Types and sizes
  * Return: 0
  **/
-
 int main(void)
 {	char charType;
 	int intType;
