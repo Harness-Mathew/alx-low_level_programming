@@ -1,6 +1,7 @@
 #include <stdlib.h>
 
 #include <time.h>
+
 #include <stdio.h>
 
 /* more headers goes there */
@@ -27,15 +28,18 @@ int main(void)
 
 					if(n > 0)
 					{
-						puts("is positive")
-							};
+						puts("is positive");
+						return (0);
+							}
 					else if(n == 0)
 					{
-						puts("is zero")
-					}; else(n < 0)
+						puts("is zero");
+						return (0);
+					} else(n < 0)
 					{
-						puts("is negative")
-					};
+						puts("is negative");
+						return (0);
+					}
 
 					return (0);
 
