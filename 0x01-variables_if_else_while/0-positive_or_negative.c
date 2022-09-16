@@ -24,11 +24,12 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					if(n > 0)
+					if (n > 0)
 					{
 						printf("is positive\n");
 					}
-					else(n == 0) {
+					else (n == 0)
+					{
 						printf("is zero\n");
 					}
 					printf("is negative\n");/* your code goes there */
