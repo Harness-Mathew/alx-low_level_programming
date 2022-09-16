@@ -2,16 +2,14 @@
 
 #include <time.h>
 
-#include <stdio.h>
-
-/* more headers goes there */
+#include <stdio.h>/* more headers goes there */
 
 
 
 /* betty style doc for function main goes there */
 /**
  * main - entry point
- * description: print string to type of random output
+ * description: print if
  * return: 0
 **/
 int main(void)
@@ -28,15 +26,14 @@ int main(void)
 
 					if(n > 0)
 					{
-						puts("is positive");
-						return (0);
-							}
-					else (n == 0)
-					{
-						puts("is zero");
-						return (0);
+						printf("is positive\n");
 					}
-						puts("is negative");
-						return (0);
+					else(n == 0)
+					{
+						printf("is zero\n");
+					}
+					printf("is negative\n");/* your code goes there */
+
+					return (0);
 
 }
