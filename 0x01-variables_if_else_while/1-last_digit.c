@@ -17,22 +17,22 @@ int main(void)
 {
 
 		int n;
+		int m;
 
 
 
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
+				m = n % 10
 
-				if(n%10 > 5)
-				{
-					printf("Last digit of n is %d and is greater than 5,n%10");
-				}	/* your code goes there */
-				else(n%10 < 5)
-				{
-					printf("Last digit of n is %d and is lesser than 5,n%10");
-				}
-
-					return (0);
+				if (m > 5)
+					printf("Last digit of n is %d and is greater than 5," m);
+					/* your code goes there */
+				else if (m == 0)
+					printf("Last digit of n is %d\n," m);
+				else(m < 5)
+					printf("Last digit of n is %d and is less than 6 and not 0,\n" m);
+				return (0);
 
 }
