@@ -9,12 +9,11 @@ int main(void)
 	char x;
 	char i;
 
-	for (x = 'a'; x < 'z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
 	}
-	for (i = 'A'; i < 'Z'; i++)
-	{
+sh: 1: :q: not found
 		putchar(i);
 	}
 	putchar('\n');
