@@ -13,7 +13,8 @@ int main(void)
 	{
 		putchar(x);
 	}
-sh: 1: :q: not found
+	for (i = 'A'; i <= 'Z'; i++)
+	{
 		putchar(i);
 	}
 	putchar('\n');
