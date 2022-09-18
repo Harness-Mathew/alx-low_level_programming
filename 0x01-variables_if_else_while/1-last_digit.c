@@ -9,8 +9,8 @@
 /* betty style doc for function main goes there */
 /**
  * main - entry point
- * description: print if
- * return: 0
+ * Description: print if
+ * Return: 0
 **/
 int main(void)
 
@@ -27,9 +27,13 @@ int main(void)
 				m = n % 10;
 
 				if (m > 5)
+				{
 					printf("Last digit of n is %d and is greater than 5\n", m);
+				}
 				else(m == 0)
+				{
 					printf("Last digit of n is %d\n", m);
+				}
 				printf("Last digit of n is %d and is less than 6 and not 0\n", m);
 				return (0);
 
