@@ -8,7 +8,7 @@
 int main(void)
 {
 	int n;
-	int *p;
+	int* p;
 
 	n = 402;
 	*p = &n;
